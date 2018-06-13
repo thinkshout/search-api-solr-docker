@@ -1,0 +1,21 @@
+{
+    "name": "mariafisher/docker-solr-test",
+    "description": "Solr with config from drupal",
+    "type": "project",
+    "license": "MID",
+    "authors": [
+        {
+            "name": "Maria Fisher",
+            "email": "mariacha@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    ],
+    "require": {
+        "drupal/search_api_solr": "^1.2"
+    }
+}
