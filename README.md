@@ -1,5 +1,5 @@
 This is an extremely simple docker build that adds the search_api_solr
-config files to a docker instance of solr based on the dockersolr/docker-solr:6.0
+config files to a docker instance of solr based on the dockersolr/docker-solr:7.0
 docker repo.
 
 To update this file run:
@@ -26,13 +26,13 @@ docker tag 986c75cebe7e mariacha/docker-solr-drupal:6.0
 Push your new image to docker:
 
 ```
-docker push mariacha/docker-solr-drupal:6.0
+docker push mariacha/docker-solr-drupal:7.0
 ```
 
 You can then checkout this container from CircleCI with:
 
 ```
-- image: mariacha/docker-solr-drupal:6.0
+- image: mariacha/docker-solr-drupal:7.0
 ```
 
 in your .circleci/config.yml file.
