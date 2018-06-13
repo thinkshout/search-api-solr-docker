@@ -16,6 +16,6 @@
         }
     ],
     "require": {
-        "drupal/search_api_solr": "^1.2"
+        "drupal/search_api_solr": "^2.0"
     }
 }
